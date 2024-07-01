@@ -1,0 +1,58 @@
+.navwapper{
+    background-color: bisque;
+}
+
+.navwapper .navbar{
+    list-style-type: none;
+}
+
+.navwapper .navbar .list{
+    display: inline-block;
+    padding: 10px;
+}
+
+.navwapper .navbar .list .link{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.navwapper .navbar .list .link :hover{
+    color: lightcoral;
+    background-color: white;
+}
+
+#logout{
+    float: right;
+}
+
+.boxwarp{
+    /*border :2px solid gray;*/
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0px opx 7px 2px gray;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: justify;
+    text-shadow: 1px 2px 3px gray;
+}
+
+.boxwarp :hover{
+    height: 500px;
+    width: 500px;
+    transition: 2s;
+}
+
+.link1:active{
+    color: rgb(0, 140, 255);
+}
+
+.link2:visited{
+    color: red;
+}
+
+.link3:link{
+    background-color: aquamarine;
+}
+
