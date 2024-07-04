@@ -1,0 +1,37 @@
+.boxwrap{
+    height: 300px;
+    width: 500px;
+    border: 2px ridge lawngreen;
+    margin: auto;
+    position: relative;
+}
+
+.tl{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.tr{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.cen{
+    position: absolute;
+    top: 120px;
+    left: 220px;
+}
+
+.bl{
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+}
+
+.br{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
